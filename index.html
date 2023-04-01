@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Funman Odd Generator</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/select2.min.css">
+  <link rel="stylesheet" href="./css/select2.bs5.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <span class="fs-4">Funman Odd Generator</span>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="offset-md-1 col-md-10">
+           <div class="form-floating">
+             <input type="text" class="form-control" id="name" placeholder="name">
+            <label for="name">Odd Name</label>
+          </div>
+          <table class="table table-striped" id="table-data">
+            <tfoot>
+            <tr>
+              <td>
+                <div class="input-group input-group-sm">
+                  <input type="number" class="form-control" id="i-odd" placeholder="Odd" min="1">
+                </div>
+              </td>
+              <td>
+                <div class="input-group input-group-sm">
+                  <select id="i-reward" class="form-select"></select>
+                </div>
+              </td>
+              <td colspan="2">
+                <div class="input-group input-group-sm">
+                  <select id="i-requirement" class="form-select"></select>
+                </div>
+              </td>
+              <td>
+                <button type="button" class="btn btn-success btn-add btn-sm w-100">
+                  Add
+                </button>
+              </td>
+            </tr>
+            </tfoot>
+          </table>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <input type="file" class="hide" id="open" accept=".funman">
+            <button class="btn btn-primary btn-load" type="button">Load</button>
+            <button class="btn btn-success btn-save" type="button">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/select2.min.js"></script>
+  <script src="./js/datatable.min.js"></script>
+  <script src="./js/datatable.bs5.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
