@@ -1,4 +1,6 @@
 {
+  "goblin_pooting_pouch": { "id": "674014", "schema": "funman1stgen", "name": "Goblin Pooting Pouch" },
+  "disguise_glasses": { "id": "674013", "schema": "funman1stgen", "name": "Disguise Glasses" },
   "chanting_spell": { "id": "673405", "schema": "funman1stgen", "name": "Chanting Spell" },
   "living_demon_key": { "id": "670484", "schema": "funman1stgen", "name": "Living Demon Key" },
   "lucky_leprechaun_hat": { "id": "670172", "schema": "funman1stgen", "name": "Lucky Leprechaun Hat" },
