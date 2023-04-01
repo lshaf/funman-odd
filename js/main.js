@@ -49,8 +49,8 @@ $(document).ready(function () {
         render: function (data) {
           if (totalOdd === 0) return 0;
           return Number(data / totalOdd * 100).toLocaleString("en", {
-            minimumFractionDigits: 2,
-            maximumFractionDigits: 2
+            minimumFractionDigits: 5,
+            maximumFractionDigits: 5
           });
         }
       },
