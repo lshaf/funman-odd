@@ -163,6 +163,7 @@ $(document).ready(function () {
       fullFormat.odds.push(xData)
     }
 
+    fullFormat.odds.sort((a, b) => a[0] - b[0]);
     let strContent = JSON.stringify(fullFormat, null, 2);
     strContent = strContent.replace(/(\[|,)\n\s{6}/ig, "$1");
     strContent = strContent.replace(/"\n\s{4}/ig, `"`);

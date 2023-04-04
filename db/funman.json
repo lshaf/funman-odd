@@ -1,4 +1,12 @@
 {
+  "black_goblinite_easter_egg": { "id": "674718", "schema": "funmaneaster", "name": "Black Goblinite Easter Egg" },
+  "golden_goblinite_easter_egg": { "id": "674716", "schema": "funmaneaster", "name": "Golden Goblinite Easter Egg" },
+  "purple_goblinite_easter_egg": { "id": "674712", "schema": "funmaneaster", "name": "Purple Goblinite Easter Egg" },
+  "red_goblinite_easter_egg": { "id": "674710", "schema": "funmaneaster", "name": "Red Goblinite Easter Egg" },
+  "green_goblinite_easter_egg": { "id": "674709", "schema": "funmaneaster", "name": "Green Goblinite Easter Egg" },
+  "blue_goblinite_easter_egg": { "id": "674707", "schema": "funmaneaster", "name": "Blue Goblinite Easter Egg" },
+  "white_goblinite_easter_egg": { "id": "674669", "schema": "funmaneaster", "name": "White Goblinite Easter Egg" },
+  "green_galactrain": { "id": "674298", "schema": "funmanlegend", "name": "Green Galactrain" },
   "goblin_pooting_pouch": { "id": "674014", "schema": "funman1stgen", "name": "Goblin Pooting Pouch" },
   "disguise_glasses": { "id": "674013", "schema": "funman1stgen", "name": "Disguise Glasses" },
   "chanting_spell": { "id": "673405", "schema": "funman1stgen", "name": "Chanting Spell" },
