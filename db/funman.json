@@ -1,4 +1,6 @@
 {
+  "goblinite_easter_egg_basket": { "id": "675295", "schema": "funmaneaster", "name": "Goblinite Easter Egg Basket" },
+  "woven_basket": { "id": "675293", "schema": "funmansupply", "name": "Woven Basket" },
   "black_goblinite_easter_egg": { "id": "674718", "schema": "funmaneaster", "name": "Black Goblinite Easter Egg" },
   "golden_goblinite_easter_egg": { "id": "674716", "schema": "funmaneaster", "name": "Golden Goblinite Easter Egg" },
   "purple_goblinite_easter_egg": { "id": "674712", "schema": "funmaneaster", "name": "Purple Goblinite Easter Egg" },
