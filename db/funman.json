@@ -699,5 +699,12 @@
   "golden_goblinite_easter_egg": { "id": "674716", "schema": "funmaneaster", "name": "Golden Goblinite Easter Egg" },
   "black_goblinite_easter_egg": { "id": "674718", "schema": "funmaneaster", "name": "Black Goblinite Easter Egg" },
   "woven_basket": { "id": "675293", "schema": "funmansupply", "name": "Woven Basket" },
-  "goblinite_easter_egg_basket": { "id": "675295", "schema": "funmaneaster", "name": "Goblinite Easter Egg Basket" }
+  "goblinite_easter_egg_basket": { "id": "675295", "schema": "funmaneaster", "name": "Goblinite Easter Egg Basket" },
+  "mysterious_ribbon": { "id": "676066", "schema": "funmansupply", "name": "Mysterious Ribbon" },
+  "mysterious_purple_rod": { "id": "676067", "schema": "funmansupply", "name": "Mysterious Purple Rod" },
+  "mysterious_green_rod_shiny": { "id": "676069", "schema": "funmansupply", "name": "Mysterious Green Rod (Shiny)" },
+  "super_star_shiny": { "id": "676071", "schema": "funmansupply", "name": "Super Star (Shiny)" },
+  "hellfire_skull_shiny": { "id": "676072", "schema": "funmansupply", "name": "Hellfire Skull (Shiny)" },
+  "chocolate_coin": { "id": "676075", "schema": "funmansupply", "name": "Chocolate Coin" },
+  "brown_goblinite_easter_egg": { "id": "676107", "schema": "funmaneaster", "name": "Brown Goblinite Easter Egg" }
 }
