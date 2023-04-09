@@ -706,5 +706,6 @@
   "super_star_shiny": { "id": "676071", "schema": "funmansupply", "name": "Super Star (Shiny)" },
   "hellfire_skull_shiny": { "id": "676072", "schema": "funmansupply", "name": "Hellfire Skull (Shiny)" },
   "chocolate_coin": { "id": "676075", "schema": "funmansupply", "name": "Chocolate Coin" },
-  "brown_goblinite_easter_egg": { "id": "676107", "schema": "funmaneaster", "name": "Brown Goblinite Easter Egg" }
+  "brown_goblinite_easter_egg": { "id": "676107", "schema": "funmaneaster", "name": "Brown Goblinite Easter Egg" },
+  "goblinite_easter_egg_dozen_surprise": { "id": "676116", "schema": "funmanlooter", "name": "Goblinite Easter Egg Dozen Surprise" }
 }
