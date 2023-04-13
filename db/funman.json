@@ -707,5 +707,10 @@
   "hellfire_skull_shiny": { "id": "676072", "schema": "funmansupply", "name": "Hellfire Skull (Shiny)" },
   "chocolate_coin": { "id": "676075", "schema": "funmansupply", "name": "Chocolate Coin" },
   "brown_goblinite_easter_egg": { "id": "676107", "schema": "funmaneaster", "name": "Brown Goblinite Easter Egg" },
-  "goblinite_easter_egg_dozen_surprise": { "id": "676116", "schema": "funmanlooter", "name": "Goblinite Easter Egg Dozen Surprise" }
+  "goblinite_easter_egg_dozen_surprise": { "id": "676116", "schema": "funmanlooter", "name": "Goblinite Easter Egg Dozen Surprise" },
+  "demonic_wishing_eye": { "id": "676132", "schema": "funman1stgen", "name": "Demonic Wishing Eye" },
+  "frigid_berries": { "id": "676133", "schema": "funmansupply", "name": "Frigid Berries" },
+  "scorpion_hide_scroll": { "id": "676329", "schema": "funmanscroll", "name": "Scorpion Hide Scroll" },
+  "vampire_bat": { "id": "677123", "schema": "funmansupply", "name": "Vampire Bat" },
+  "demonic_nail_clipping": { "id": "677127", "schema": "funmansupply", "name": "Demonic Nail Clipping" }
 }
