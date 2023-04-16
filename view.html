@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Funman Odd</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="#" class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto text-white text-decoration-none">
+          <span class="fs-4">Funman Odd Viewer</span>
+        </a>
+        <div class="text-end">
+          <div class="login-button">
+            <button type="button" class="btn btn-outline-light btn-anchor">Anchor</button>
+            <button type="button" class="btn btn-outline-light btn-wcw">WCW</button>
+          </div>
+          <div class="user-display d-none">
+            <span class="wallet-name">nw.shaf.wiz</span>
+            <button type="button" class="btn btn-outline-light btn-logout">Logout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container mt-3 mb-4">
+      <div class="row">
+        <div class="offset-md-1 col-md-10">
+           <div class="form-floating">
+            <input type="text" class="form-control" id="name" placeholder="name" readonly>
+            <label for="name">Odd Name</label>
+          </div>
+          <table class="table table-striped" id="table-data">
+          </table>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <input type="file" class="hide" id="open" accept=".funman">
+            <button class="btn btn-primary btn-load" type="button">Load</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./js/atomicassets.min.js"></script>
+  <script src="./js/anchor.min.js"></script>
+  <script src="./js/anchor.transport.min.js"></script>
+  <script src="./js/waxjs.min.js"></script>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/datatable.min.js"></script>
+  <script src="./js/datatable.bs5.min.js"></script>
+  <script src="./js/view.js?v1.0.2"></script>
+</body>
+</html>

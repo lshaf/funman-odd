@@ -712,5 +712,11 @@
   "frigid_berries": { "id": "676133", "schema": "funmansupply", "name": "Frigid Berries" },
   "scorpion_hide_scroll": { "id": "676329", "schema": "funmanscroll", "name": "Scorpion Hide Scroll" },
   "vampire_bat": { "id": "677123", "schema": "funmansupply", "name": "Vampire Bat" },
-  "demonic_nail_clipping": { "id": "677127", "schema": "funmansupply", "name": "Demonic Nail Clipping" }
+  "demonic_nail_clipping": { "id": "677127", "schema": "funmansupply", "name": "Demonic Nail Clipping" },
+  "eye_of_anubis": { "id": "677476", "schema": "funman1stgen", "name": "Eye of Anubis" },
+  "dungeon_scroll": { "id": "677699", "schema": "funmanscroll", "name": "Dungeon Scroll" },
+  "punch_melon": { "id": "677700", "schema": "funmansupply", "name": "Punch Melon" },
+  "shiny_mysterious_ribbons": { "id": "677701", "schema": "funmansupply", "name": "Shiny Mysterious Ribbons" },
+  "locked_living_demonic_chest": { "id": "677704", "schema": "funman1stgen", "name": "Locked Living Demonic Chest" },
+  "wanderers_garment": { "id": "677706", "schema": "funman1stgen", "name": "Wanderer's Garment" }
 }
