@@ -34,16 +34,6 @@ $(document).ready(function () {
         }
       },
       {
-        title: "Requirement",
-        data: "requirement",
-        orderable: false,
-        render: function (data) {
-          if (data == "") return "-";
-          let full = master[data];
-          return `[${full.id}] ${full.name}`;
-        }
-      },
-      {
         title: "%",
         data: "odd",
         orderable: false,
@@ -80,22 +70,25 @@ $(document).ready(function () {
       eName.val(loaded.name);
 
       totalOdd = 0;
-      let formatted = [];
+      let formatted = {};
       for (let x of loaded.odds) {
         let req = x[2] || "";
         if (req !== "" && session.items[req] === undefined)
           continue;
 
         totalOdd += x[0];
-        formatted.push({
-          odd: x[0],
-          reward: x[1],
-          requirement: req
-        })
+        if (formatted[x[1]] === undefined) {
+          formatted[x[1]] = {
+            odd: 0,
+            reward: x[1],
+          }
+        }
+
+        formatted[x[1]].odd += x[0];
       }
 
       db.clear();
-      db.rows.add(formatted);
+      db.rows.add(Object.values(formatted));
       db.draw();
     });
     reader.readAsText(files[0], 'utf-9');
