@@ -718,5 +718,8 @@
   "punch_melon": { "id": "677700", "schema": "funmansupply", "name": "Punch Melon" },
   "shiny_mysterious_ribbons": { "id": "677701", "schema": "funmansupply", "name": "Shiny Mysterious Ribbons" },
   "locked_living_demonic_chest": { "id": "677704", "schema": "funman1stgen", "name": "Locked Living Demonic Chest" },
-  "wanderers_garment": { "id": "677706", "schema": "funman1stgen", "name": "Wanderer's Garment" }
+  "wanderers_garment": { "id": "677706", "schema": "funman1stgen", "name": "Wanderer's Garment" },
+  "dungeon_of_the_lost": { "id": "678196", "schema": "funmanempire", "name": "Dungeon of the Lost" },
+  "golden_starlight": { "id": "678642", "schema": "funmansupply", "name": "Golden Starlight" },
+  "goblin_ganja": { "id": "679119", "schema": "funmansupply", "name": "Goblin Ganja" }
 }
