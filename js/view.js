@@ -29,6 +29,7 @@ $(document).ready(function () {
         data: "reward",
         orderable: false,
         render: function (data) {
+          if (data == "") return "-";
           let full = master[data];
           return `[${full.id}] ${full.name}`;
         }

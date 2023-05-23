@@ -28,6 +28,7 @@ $(document).ready(function () {
         data: "reward",
         orderable: false,
         render: function (data) {
+          if (data == "") return "-";
           let full = master[data];
           return `[${full.id}] ${full.name}`;
         }
@@ -88,11 +89,6 @@ $(document).ready(function () {
       return;
     }
 
-    if (eReward.val() === "") {
-      alert("Reward is required");
-      return;
-    }
-
     totalOdd += odd;
     let old = db.data().toArray();
     old.push({
@@ -128,7 +124,7 @@ $(document).ready(function () {
         totalOdd += x[0];
         formatted.push({
           odd: x[0],
-          reward: x[1],
+          reward: x[1] || "",
           requirement: x[2] || ""
         })
       }
@@ -158,7 +154,9 @@ $(document).ready(function () {
     }
 
     for (let x of fullData) {
-      let xData = [x.odd, x.reward];
+      let reward = x.reward;
+      if (reward == "") reward = null;
+      let xData = [x.odd, reward];
       if (x.requirement !== "") xData.push(x.requirement);
       fullFormat.odds.push(xData)
     }
