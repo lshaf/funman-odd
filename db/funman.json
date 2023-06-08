@@ -742,5 +742,10 @@
   "bad_juju": { "id": "685045", "schema": "funmansupply", "name": "Bad Juju" },
   "giant_rat": { "id": "685052", "schema": "funmansupply", "name": "Giant Rat" },
   "orb_of_darkness": { "id": "685053", "schema": "funmansupply", "name": "Orb of Darkness" },
-  "dungeon_raiders_chest": { "id": "685054", "schema": "funmanchests", "name": "Dungeon Raider's Chest" }
+  "dungeon_raiders_chest": { "id": "685054", "schema": "funmanchests", "name": "Dungeon Raider's Chest" },
+  "primitive_talisman": { "id": "698862", "schema": "funmansupply", "name": "Primitive Talisman" },
+  "useful_ceramic_bowl": { "id": "698865", "schema": "funmansupply", "name": "Useful Ceramic Bowl" },
+  "villager": { "id": "700833", "schema": "funmantribal", "name": "Villager" },
+  "ancient_goblin_engine": { "id": "702048", "schema": "funmansupply", "name": "Ancient Goblin Engine" },
+  "ancient_goblin_muffler": { "id": "702049", "schema": "funmansupply", "name": "Ancient Goblin Muffler" }
 }
