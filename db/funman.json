@@ -747,5 +747,10 @@
   "useful_ceramic_bowl": { "id": "698865", "schema": "funmansupply", "name": "Useful Ceramic Bowl" },
   "villager": { "id": "700833", "schema": "funmantribal", "name": "Villager" },
   "ancient_goblin_engine": { "id": "702048", "schema": "funmansupply", "name": "Ancient Goblin Engine" },
-  "ancient_goblin_muffler": { "id": "702049", "schema": "funmansupply", "name": "Ancient Goblin Muffler" }
+  "ancient_goblin_muffler": { "id": "702049", "schema": "funmansupply", "name": "Ancient Goblin Muffler" },
+  "funmangalaxy_heighliner": { "id": "702189", "schema": "funman1stgen", "name": "Funmangalaxy Heighliner" },
+  "canadarm": { "id": "704540", "schema": "funman1stgen", "name": "Canadarm" },
+  "smuggled_goods": { "id": "704568", "schema": "funmanlooter", "name": "Smuggled Goods" },
+  "spiced_honey_mud_mask": { "id": "705938", "schema": "funman1stgen", "name": "Spiced Honey Mud Mask" },
+  "dung_spell": { "id": "706655", "schema": "funman1stgen", "name": "Dung Spell" }
 }
