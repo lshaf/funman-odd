@@ -752,5 +752,6 @@
   "canadarm": { "id": "704540", "schema": "funman1stgen", "name": "Canadarm" },
   "smuggled_goods": { "id": "704568", "schema": "funmanlooter", "name": "Smuggled Goods" },
   "spiced_honey_mud_mask": { "id": "705938", "schema": "funman1stgen", "name": "Spiced Honey Mud Mask" },
-  "dung_spell": { "id": "706655", "schema": "funman1stgen", "name": "Dung Spell" }
+  "dung_spell": { "id": "706655", "schema": "funman1stgen", "name": "Dung Spell" },
+  "leaf_house": { "id": "707912", "schema": "funmanempire", "name": "Leaf House" }
 }
