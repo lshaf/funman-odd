@@ -754,5 +754,8 @@
   "spiced_honey_mud_mask": { "id": "705938", "schema": "funman1stgen", "name": "Spiced Honey Mud Mask" },
   "dung_spell": { "id": "706655", "schema": "funman1stgen", "name": "Dung Spell" },
   "leaf_house": { "id": "707912", "schema": "funmanempire", "name": "Leaf House" },
-  "healthy_medungion": { "id": "708947", "schema": "funman1stgen", "name": "Healthy Medungion" }
+  "healthy_medungion": { "id": "708947", "schema": "funman1stgen", "name": "Healthy Medungion" },
+  "thin_air": { "id": "713684", "schema": "funmansupply", "name": "Thin Air" },
+  "dentures": { "id": "716335", "schema": "funmansupply", "name": "Dentures" },
+  "goblin_grannys_magic_chompers_shiny": { "id": "716336", "schema": "funmansupply", "name": "Goblin Granny’s Magic Chompers (Shiny)" }
 }
