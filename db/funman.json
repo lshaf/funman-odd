@@ -757,5 +757,7 @@
   "healthy_medungion": { "id": "708947", "schema": "funman1stgen", "name": "Healthy Medungion" },
   "thin_air": { "id": "713684", "schema": "funmansupply", "name": "Thin Air" },
   "dentures": { "id": "716335", "schema": "funmansupply", "name": "Dentures" },
-  "goblin_grannys_magic_chompers_shiny": { "id": "716336", "schema": "funmansupply", "name": "Goblin Granny’s Magic Chompers (Shiny)" }
+  "goblin_grannys_magic_chompers_shiny": { "id": "716336", "schema": "funmansupply", "name": "Goblin Granny’s Magic Chompers (Shiny)" },
+  "magic_menace_hat": { "id": "716707", "schema": "funman1stgen", "name": "Magic Menace Hat" },
+  "tiny_menace_scroll": { "id": "716720", "schema": "funmanscroll", "name": "Tiny Menace Scroll" },
 }
