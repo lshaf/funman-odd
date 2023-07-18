@@ -759,5 +759,13 @@
   "dentures": { "id": "716335", "schema": "funmansupply", "name": "Dentures" },
   "goblin_grannys_magic_chompers_shiny": { "id": "716336", "schema": "funmansupply", "name": "Goblin Granny’s Magic Chompers (Shiny)" },
   "magic_menace_hat": { "id": "716707", "schema": "funman1stgen", "name": "Magic Menace Hat" },
-  "tiny_menace_scroll": { "id": "716720", "schema": "funmanscroll", "name": "Tiny Menace Scroll" }
+  "tiny_menace_scroll": { "id": "716720", "schema": "funmanscroll", "name": "Tiny Menace Scroll" },
+  "bottled_fairy_dust": { "id": "718197", "schema": "funmansupply", "name": "Bottled Fairy Dust" },
+  "hourglass": { "id": "718198", "schema": "funmansupply", "name": "Hourglass" },
+  "ganja_grow_house": { "id": "719229", "schema": "funmanempire", "name": "Ganja Grow House" },
+  "drop_of_radioactive_sweat": { "id": "719368", "schema": "funmansupply", "name": "Drop of Radioactive Sweat" },
+  "lucky_cricket": { "id": "720173", "schema": "funman1stgen", "name": "Lucky Cricket" },
+  "lodestone": { "id": "720264", "schema": "funmansupply", "name": "Lodestone" },
+  "solid_stone": { "id": "720299", "schema": "funmansupply", "name": "Solid Stone" },
+  "time_capsule_box": { "id": "720470", "schema": "funmanlooter", "name": "Time Capsule Box" }
 }
