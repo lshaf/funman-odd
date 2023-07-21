@@ -767,5 +767,7 @@
   "lucky_cricket": { "id": "720173", "schema": "funman1stgen", "name": "Lucky Cricket" },
   "lodestone": { "id": "720264", "schema": "funmansupply", "name": "Lodestone" },
   "solid_stone": { "id": "720299", "schema": "funmansupply", "name": "Solid Stone" },
-  "time_capsule_box": { "id": "720470", "schema": "funmanlooter", "name": "Time Capsule Box" }
+  "time_capsule_box": { "id": "720470", "schema": "funmanlooter", "name": "Time Capsule Box" },
+  "cannonball": { "id": "724619", "schema": "funmansupply", "name": "Cannonball" },
+  "terrifying_tequila": { "id": "724623", "schema": "funmansupply", "name": "Terrifying Tequila" }
 }
