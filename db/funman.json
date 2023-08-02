@@ -798,5 +798,6 @@
   "warm_gun": { "id": "731879", "schema": "funmanweapon", "name": "Warm Gun" },
   "rusty_sword": { "id": "731882", "schema": "funmanweapon", "name": "Rusty Sword" },
   "broken_leg": { "id": "731883", "schema": "funmansupply", "name": "Broken Leg" },
-  "stinky_baby": { "id": "731894", "schema": "funmansupply", "name": "Stinky Baby" }
+  "stinky_baby": { "id": "731894", "schema": "funmansupply", "name": "Stinky Baby" },
+  "precious": { "id": "732135", "schema": "funman1stgen", "name": "Precious" }
 }
