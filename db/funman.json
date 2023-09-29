@@ -824,5 +824,17 @@
   "death_magic_concentrate": { "id": "746878", "schema": "funmansupply", "name": "Death Magic Concentrate" },
   "pile_of_soot": { "id": "746883", "schema": "funmansupply", "name": "Pile of Soot" },
   "soot_sprite": { "id": "746885", "schema": "funmansupply", "name": "Soot Sprite" },
-  "cold_dog_stone": { "id": "747946", "schema": "funmansupply", "name": "Cold Dog Stone" }
+  "cold_dog_stone": { "id": "747946", "schema": "funmansupply", "name": "Cold Dog Stone" },
+  "pail_of_piss": { "id": "749007", "schema": "funmansupply", "name": "Pail of Piss" },
+  "dragon_hide": { "id": "749009", "schema": "funmansupply", "name": "Dragon Hide" },
+  "special_dragon_hide_shiny": { "id": "749011", "schema": "funmansupply", "name": "Special Dragon Hide (Shiny)" },
+  "indigo_toad": { "id": "749330", "schema": "funmansupply", "name": "Indigo Toad" },
+  "nuclear_toad": { "id": "749331", "schema": "funmansupply", "name": "Nuclear Toad" },
+  "dragon_milk": { "id": "749332", "schema": "funmansupply", "name": "Dragon Milk" },
+  "dung_tea": { "id": "749347", "schema": "funmansupply", "name": "Dung Tea" },
+  "goblin_talisman": { "id": "749358", "schema": "funmansupply", "name": "Goblin Talisman" },
+  "empty_pail": { "id": "749365", "schema": "funman1stgen", "name": "Empty Pail" },
+  "baby_dragon": { "id": "749377", "schema": "funmanhatcha", "name": "Baby Dragon" },
+  "exceptional_baby_dragon": { "id": "749379", "schema": "funmanhatcha", "name": "Exceptional Baby Dragon" },
+  "village_dunce": { "id": "749577", "schema": "funmantribal", "name": "Village Dunce" }
 }
