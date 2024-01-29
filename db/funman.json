@@ -925,5 +925,7 @@
   "uncontrollable_laugher": { "id": "776823", "schema": "funmansupply", "name": "Uncontrollable Laugher" },
   "celebration": { "id": "777626", "schema": "funman1stgen", "name": "Celebration" },
   "oak_barrel": { "id": "777627", "schema": "funmansupply", "name": "Oak Barrel" },
-  "raw_topaz": { "id": "777629", "schema": "funmansupply", "name": "Raw Topaz" }
+  "raw_topaz": { "id": "777629", "schema": "funmansupply", "name": "Raw Topaz" },
+  "cyborg_scientist": { "id": "777796", "schema": "funmantribal", "name": "Cyborg Scientist" },
+  "puddle_of_diarrhea": { "id": "778261", "schema": "funmansupply", "name": "Puddle of Diarrhea" }
 }
