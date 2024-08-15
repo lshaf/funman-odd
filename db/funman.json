@@ -1014,5 +1014,17 @@
   "flaming_whiskey": { "id": "815722", "schema": "funmansupply", "name": "Flaming Whiskey" },
   "eye_of_horus": { "id": "815837", "schema": "funman1stgen", "name": "Eye of Horus" },
   "yemyum": { "id": "816357", "schema": "funmanhatcha", "name": "Yemyum" },
-  "glowing_giggamulet": { "id": "816957", "schema": "funman1stgen", "name": "Glowing Giggamulet" }
+  "glowing_giggamulet": { "id": "816957", "schema": "funman1stgen", "name": "Glowing Giggamulet" },
+  "jug_of_vinegar": { "id": "819471", "schema": "funmansupply", "name": "Jug of Vinegar" },
+  "empty_jug": { "id": "819478", "schema": "funmansupply", "name": "Empty Jug" },
+  "book_of_living_laughter": { "id": "821545", "schema": "funmanwriter", "name": "Book of Living Laughter" },
+  "giggle_gremlin": { "id": "821553", "schema": "funmanhatcha", "name": "Giggle Gremlin" },
+  "unsoiled_robe_of_soot": { "id": "821554", "schema": "funman1stgen", "name": "Unsoiled Robe of Soot" },
+  "slain_giggle_gremlin": { "id": "822565", "schema": "funmancorpse", "name": "Slain Giggle Gremlin" },
+  "ear_wax": { "id": "823674", "schema": "funmansupply", "name": "Ear Wax" },
+  "jar_of_discolored_goop": { "id": "826150", "schema": "funmansupply", "name": "Jar of Discolored Goop" },
+  "bucket_of_compost": { "id": "826151", "schema": "funmansupply", "name": "Bucket of Compost" },
+  "intuition": { "id": "826152", "schema": "funmansupply", "name": "Intuition" },
+  "inspiration": { "id": "826161", "schema": "funmansupply", "name": "Inspiration" },
+  "terrible_cough": { "id": "826162", "schema": "funmansupply", "name": "Terrible Cough" }
 }
