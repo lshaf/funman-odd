@@ -1061,5 +1061,15 @@
   "red_licorice": { "id": "842902", "schema": "funmansupply", "name": "Red Licorice" },
   "mystic_candy_corn": { "id": "842913", "schema": "funmansupply", "name": "Mystic Candy Corn" },
   "wyvern_skull": { "id": "842916", "schema": "funmansupply", "name": "Wyvern Skull" },
-  "spooky_pumpkin_pail": { "id": "842917", "schema": "funmanlooter", "name": "Spooky Pumpkin Pail" }
+  "spooky_pumpkin_pail": { "id": "842917", "schema": "funmanlooter", "name": "Spooky Pumpkin Pail" },
+  "vampire": { "id": "847892", "schema": "funmantribal", "name": "Vampire" },
+  "mistletoe": { "id": "865358", "schema": "funmansupply", "name": "Mistletoe" },
+  "snowy_sac_of_presents": { "id": "865427", "schema": "funmanlooter", "name": "Snowy Sac of Presents" },
+  "unproductive_elf_hat": { "id": "865428", "schema": "funmaneaster", "name": "Unproductive Elf Hat" },
+  "kringles_indigo_cap": { "id": "865436", "schema": "funmaneaster", "name": "Kringle’s Indigo Cap" },
+  "wild_rabbit": { "id": "866503", "schema": "funmansupply", "name": "Wild Rabbit" },
+  "wild_birdy": { "id": "866504", "schema": "funmansupply", "name": "Wild Birdy" },
+  "waterskin": { "id": "866505", "schema": "funmansupply", "name": "Waterskin" },
+  "blood_moon": { "id": "866708", "schema": "funmansupply", "name": "Blood Moon" },
+  "avid_writer": { "id": "866712", "schema": "funman1stgen", "name": "Avid Writer" }
 }
