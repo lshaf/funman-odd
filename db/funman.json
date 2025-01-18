@@ -1071,5 +1071,16 @@
   "wild_birdy": { "id": "866504", "schema": "funmansupply", "name": "Wild Birdy" },
   "waterskin": { "id": "866505", "schema": "funmansupply", "name": "Waterskin" },
   "blood_moon": { "id": "866708", "schema": "funmansupply", "name": "Blood Moon" },
-  "avid_writer": { "id": "866712", "schema": "funman1stgen", "name": "Avid Writer" }
+  "avid_writer": { "id": "866712", "schema": "funman1stgen", "name": "Avid Writer" },
+  "cavern_loot_scroll": { "id": "867868", "schema": "funmanvoyage", "name": "Cavern Loot Scroll" },
+  "dungeon_loot_scroll": { "id": "867869", "schema": "funmanvoyage", "name": "Dungeon Loot Scroll" },
+  "magmic_loot_scroll": { "id": "867870", "schema": "funmanvoyage", "name": "Magmic Loot Scroll" },
+  "forest_tracks": { "id": "867871", "schema": "funmanvoyage", "name": "Forest Tracks" },
+  "swamp_tracks": { "id": "867872", "schema": "funmanvoyage", "name": "Swamp Tracks" },
+  "desert_tracks": { "id": "867873", "schema": "funmanvoyage", "name": "Desert Tracks" },
+  "magic_crystal_boots": { "id": "868191", "schema": "funmansupply", "name": "Magic Crystal Boots" },
+  "desert_passage": { "id": "868192", "schema": "funmansupply", "name": "Desert Passage" },
+  "anaconda": { "id": "869735", "schema": "funmansupply", "name": "Anaconda" },
+  "flamingo_egg": { "id": "869736", "schema": "funmansupply", "name": "Flamingo Egg" },
+  "bucket_of_worms": { "id": "869737", "schema": "funmansupply", "name": "Bucket of Worms" }
 }
