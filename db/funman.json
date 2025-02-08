@@ -1082,5 +1082,9 @@
   "desert_passage": { "id": "868192", "schema": "funmansupply", "name": "Desert Passage" },
   "anaconda": { "id": "869735", "schema": "funmansupply", "name": "Anaconda" },
   "flamingo_egg": { "id": "869736", "schema": "funmansupply", "name": "Flamingo Egg" },
-  "bucket_of_worms": { "id": "869737", "schema": "funmansupply", "name": "Bucket of Worms" }
+  "bucket_of_worms": { "id": "869737", "schema": "funmansupply", "name": "Bucket of Worms" },
+  "gilded_fish": { "id": "873300", "schema": "funmansupply", "name": "Gilded Fish" },
+  "forsh": { "id": "873301", "schema": "funmansupply", "name": "Forsh" },
+  "albino_axolotl": { "id": "873302", "schema": "funmansupply", "name": "Albino Axolotl" },
+  "ninja_starfish": { "id": "873303", "schema": "funmanweapon", "name": "Ninja Starfish" }
 }
