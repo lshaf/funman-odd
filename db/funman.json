@@ -1086,5 +1086,11 @@
   "gilded_fish": { "id": "873300", "schema": "funmansupply", "name": "Gilded Fish" },
   "forsh": { "id": "873301", "schema": "funmansupply", "name": "Forsh" },
   "albino_axolotl": { "id": "873302", "schema": "funmansupply", "name": "Albino Axolotl" },
-  "ninja_starfish": { "id": "873303", "schema": "funmanweapon", "name": "Ninja Starfish" }
+  "ninja_starfish": { "id": "873303", "schema": "funmanweapon", "name": "Ninja Starfish" },
+  "sun_flower": { "id": "874914", "schema": "funmansupply", "name": "Sun Flower" },
+  "moon_flower": { "id": "874916", "schema": "funmansupply", "name": "Moon Flower" },
+  "freshly_mixed_concrete": { "id": "875250", "schema": "funmansupply", "name": "Freshly Mixed Concrete" },
+  "theophane": { "id": "875561", "schema": "funmanlegend", "name": "Theophane" },
+  "lucky_fish": { "id": "888476", "schema": "funmansupply", "name": "Lucky Fish" },
+  "strange_egg": { "id": "888477", "schema": "funmansupply", "name": "Strange Egg" }
 }
