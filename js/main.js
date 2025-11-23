@@ -174,23 +174,98 @@ $(document).ready(function () {
     URL.revokeObjectURL(link.href);
   });
 
-  $.ajax({
-    url: "./db/funman.json",
-    success: function (r) {
-      master = r;
-
-      let select = [{id: "", text: ""}];
-      for (let x of Object.entries(r)) {
-        select.push({id: x[0], text: `[${x[1].id}] ${x[1].name}`})
-      }
-
+  function loadDatabase() {
+    let funman_templates = localStorage.getItem("funman_master_db");
+    let last_update = localStorage.getItem("funman_master_db_last_update");
+    if (!funman_templates) {
       $(".form-select").select2({
         width: '100%',
-        data: select,
+        data: [],
         allowClear: true,
         placeholder: "Select asset",
         minimumInputLength: 1
       });
+      $("#aa_last_update").val("Never");
+      $("#aa_total_data").val("0");
+      return;
     }
-  })
+
+    master = JSON.parse(funman_templates);
+    $("#aa_last_update").val(last_update);
+    $("#aa_total_data").val(Object.keys(master).length.toLocaleString("en"));
+    
+    let select = [{id: "", text: ""}];
+    for (let x of Object.entries(master)) {
+      select.push({id: x[0], text: `[${x[1].id}] ${x[1].name}`})
+    }
+
+    $(".form-select").select2({
+      width: '100%',
+      data: select,
+      allowClear: true,
+      placeholder: "Select asset",
+      minimumInputLength: 1
+    });
+  }
+
+  let btnUpdate = $("#update_db");
+  function fetchAndUpdateDatabase(page) {
+    btnUpdate.prop("disabled", true);
+    btnUpdate.html("Updating...");
+    let endpoint = $("#aa_endpoint").val();
+    let parameter = "?collection_name=funmangalaxy&limit=1000";
+    let urlEndpoint = (page) => `${endpoint}/atomicassets/v1/templates${parameter}&page=${page}&order=asc`;
+    if (page == 1) localStorage.removeItem("funman_master_db");
+
+    $.ajax({
+      url: urlEndpoint(page),
+      success: function (r) {
+        let names = {};
+        for (let tmpl of r.data) {
+          let t_name = tmpl['immutable_data']['name'].trim();
+          let k_name = t_name.toLowerCase().replace(/[^\w\s]+/gi, '').replace(/\s+/gi, "_");
+          names[k_name] = {
+            id: tmpl['template_id'],
+            schema: tmpl['schema']['schema_name'],
+            name: t_name
+          }
+        }
+
+        let existing = localStorage.getItem("funman_master_db");
+        if (existing) {
+          let existingData = JSON.parse(existing);
+          names = {...existingData, ...names};
+          names['dust_dust_wand'] = {
+            id: "569552",
+            schema: '',
+            name: "[DUST] Dust Wand"
+          };
+        }
+        localStorage.setItem("funman_master_db", JSON.stringify(names));
+        localStorage.setItem("funman_master_db_last_update", (new Date()).toISOString());
+        
+        if (r.data.length === 1000) {
+          btnUpdate.prop("disabled", true);
+          btnUpdate.html(`Updating... (Page ${page + 1})`);
+          fetchAndUpdateDatabase(page + 1);
+        } else {
+          loadDatabase();
+          btnUpdate.prop("disabled", false);
+          btnUpdate.html("Update Database");
+          alert("Database update completed");
+        }
+      },
+      error: function () {
+        btnUpdate.prop("disabled", false);
+        btnUpdate.html("Update Database");
+        alert("Failed to update database, please try again later.");
+      }
+    })
+  }
+
+  btnUpdate.on("click", function () {
+    fetchAndUpdateDatabase(1);
+  });
+
+  loadDatabase();
 });

@@ -17,7 +17,9 @@
           <span class="fs-4">Funman Odd Generator</span>
         </a>
         <div class="text-end">
-          <div class="login-button">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#database">
+            Asset Database
+          </button>
           <a href="view.html" class="btn btn-outline-light">View My Odd ▶️ </a>
         </div>
       </div>
@@ -65,12 +67,42 @@
         </div>
       </div>
     </div>
+    <div class="modal fade" id="database" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Asset Database</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="aa_endpoint" class="form-label">Endpoint</label>
+              <select class="form-control" id="aa_endpoint">
+                <option value="https://aa-api-wax-mainnet-1.eu.aws.pink.gg">https://aa-api-wax-mainnet-1.eu.aws.pink.gg</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="aa_last_update" class="form-label">Last Update</label>
+              <input type="text" class="form-control" id="aa_last_update" disabled>
+            </div>
+            <div>
+              <label for="aa_total_data" class="form-label">Total Data</label>
+              <input type="text" class="form-control" id="aa_total_data" disabled>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="update_db">Update Database</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <script src="./js/jquery.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/select2.min.js"></script>
   <script src="./js/datatable.min.js"></script>
   <script src="./js/datatable.bs5.min.js"></script>
-  <script src="./js/main.js?v1.0.2"></script>
+  <script src="./js/main.js?v1.0.3"></script>
 </body>
 </html>
